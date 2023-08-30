@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "name": "expo-router-hook-stateful-components",
+    "slug": "expo-router-hook-stateful-components"
+  }
+}
