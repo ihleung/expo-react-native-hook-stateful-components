@@ -8,7 +8,7 @@ const UserContext = createContext();
 function fetchUser() {
   return new Promise((resolve) => {
     setTimeout(() => {
-      resolve({ id: 99, name: "Jihee" });
+      resolve({ id: 99, name: "Tarik" });
     }, 2000);
   });
 }
@@ -43,7 +43,7 @@ function UserInfo() {
 }
 
 export default function App() {
-  const [course] = useState("WEB530");
+  const [course] = useState("React Native");
   const [year] = useState(1967);
   const [id, setId] = useState(0);
   const [name, setName] = useState("");
