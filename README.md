@@ -12,4 +12,4 @@ npx create-expo-app -e with-router
 
 #react-native
 
-#using ios simulator
+#using ios simulator and web browser
